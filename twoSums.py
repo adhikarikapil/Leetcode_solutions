@@ -4,6 +4,7 @@
 #You can return the answer in any order.
 
 
+# Function for the main logic of the code
 def twoSum(nums: list[int], target: int) -> list[int]:
     for i in range(len(nums)):
         for j in range(len(nums)):
@@ -11,6 +12,7 @@ def twoSum(nums: list[int], target: int) -> list[int]:
                 return [i, j]
 
 
+# taking list as input
 lst = []
 n = int(input("Enter the number of element:"))
 for i in range(n):
